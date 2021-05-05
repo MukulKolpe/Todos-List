@@ -55,7 +55,7 @@ export default function Header(props) {
         </div>
     )
 }
-Header.defaultTypes= {
+Header.defaultProps= {
     title: "Your Title Here",
     searchBar: true
 }
