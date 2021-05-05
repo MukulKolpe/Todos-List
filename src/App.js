@@ -8,7 +8,7 @@ import React, { useState, useEffect } from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
       })
     );
     localStorage.setItem("todos", JSON.stringify(todos));
-  };
+  }
   const addTodo = (title, desc) => {
     console.log("I am adding this todo", title, desc);
     let sno;
@@ -39,8 +39,8 @@ function App() {
     const myTodo = {
       sno: sno,
       title: title,
-      desc: desc,
-    };
+      desc: desc
+    }
     setTodos([...todos, myTodo]);
     console.log(myTodo);
   };
@@ -53,7 +53,7 @@ function App() {
   return (
     <>
     <Router>
-      <Header title="My Todos List" searchBar="false" />
+      <Header title="My Todos List" searchBar={false} />
       <Switch>
           <Route exact path="/" render={()=>{
             return(
@@ -63,7 +63,7 @@ function App() {
             </>)
           }}>
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <About />
           </Route>
       </Switch>
