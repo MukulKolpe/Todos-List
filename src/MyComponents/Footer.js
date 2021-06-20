@@ -4,7 +4,7 @@ export const Footer = () => {
     
   return (
     <footer className="bg-dark text-light py-3">
-      <p className="tect-center">Copyright &copy; MyTodosList.com</p>
+      <p className="tect-center">Copyright &copy; Mukul Kolpe</p>
     </footer>
   );
 };
