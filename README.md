@@ -1,4 +1,4 @@
-# React-Calculator
+# Todos-List
 
 ## Description
 It is a simple Todos-List made using React.js
