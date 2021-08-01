@@ -8,7 +8,7 @@ export const About = () => {
            <br></br>
            <h2>
                 You can create your Todos here.
-                This will help you to stay facused and consistant.
+                This will help you to stay focused and consistant.
                 Thank you for visiting!!
             </h2>
         </div>
