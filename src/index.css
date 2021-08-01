@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: rgb(190, 190, 226);
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  
 }
 
 code {

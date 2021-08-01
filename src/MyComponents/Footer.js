@@ -1,10 +1,11 @@
 import React from "react";
+import "./style.css"
 
 export const Footer = () => {
     
   return (
-    <footer className="bg-dark text-light py-3">
-      <p className="tect-center">Copyright &copy; Mukul Kolpe</p>
+    <footer className="footer">
+      <p className="footer-content">Copyright &copy; Mukul Kolpe</p>
     </footer>
   );
 };
