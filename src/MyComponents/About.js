@@ -3,10 +3,14 @@ import React from 'react'
 export const About = () => {
     return (
         <div>
-            This is an about component
-            <p>Hey this is about section of this Todos-List. You can create your Todos here. This react web-App is hosted on netlify.
+            
+           <h1> <i>Hello everyone </i> </h1>
+           <br></br>
+           <h2>
+                You can create your Todos here.
+                This will help you to stay facused and consistant.
                 Thank you for visiting!!
-            </p>
+            </h2>
         </div>
     )
 }
